@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #EDF2C5;
+}
+
+.container{
+  position: relative;
+  margin:auto;
+  width:1260px;
+  padding:0 160px;
+  box-sizing: border-box;
+}
+
+.icon{
+display: inline-block;
+margin-right: 10px;
+}
+
+.iconsbar , .member , .right{
+  height: 25px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.iconsbar{
+  border-right: 1px #778A50 solid;
+}
+
+header{
+  margin: 53px 0px 17px 0px;
+  box-sizing: border-box;
+}
+
+.right{
+  float: right;
+  margin-left: 10px;
+  padding-top: 17px;
+}
+
+.iconsbar , .menber{
+  vertical-align: middle;;
+}
+
+footer{
+  margin-top: 35px;
+}
+
+footer .container{
+  color: #EDF2C5;
+  background-color: #778A50;
+  padding: 24px 0 25px;
+  font: 12px 'ArialMT Regular';
+  text-align: center;
+}
+
+.cover{
+  margin-bottom: 30px;
+}
+
+div.content{
+  padding: 16px 15px;
+  line-height: 1.33;
+  border-radius: 3px;
+  background-color: #F7FBDA;
+  color: #7D7D7D;
+  font:12px 'ArinlMT Regular';
+}
+
+.H-line{
+  border-bottom: 1px #7D7D7D solid;
+  margin: 16px 0;
+}
+
+.nav-top , .title{
+  color: #EDF2C5;
+  border-radius: 5px;
+  background-color: #778a50;
+}
+
+.nav{
+  margin-bottom: 20px;
+}
+
+.navtop , .list > li{
+  margin: 0;
+  display: inline-block;
+}
+
+.navtop , .list > li > a{
+  color: #EDF2C5;
+  margin: 0;
+  padding: 13px 30px;
+  font: 16px "Arial Black";
+  display: inline-block;
+  text-decoration: none;
+}
+
+#web-title{
+  color: #778a50;
+  line-height: 44px;
+  font: 44px/1 'Arial Black';
+  display: inline-block;
+}
+
+#vegetables-article{
+  margin-right: 44px;
+}
+
+#vegetables-article figure{
+  margin: 0;
+  float: left;
+  display: inline-block;
+}
+
+#vegetables-article figure:not(:last-child) {
+    margin-right: 12px;
+}
+
+img{
+  display: block;
+  vertical-align: top;
+}
+
+article.content{
+  width: 445px;
+  display: inline-block;
+  vertical-align: top;
+}
+.btn{
+  color: #778A50;
+  background: #Edf2C5;
+  margin: 0 0 0 10px;
+  padding: 3px 8px;
+  font:bold 14px Arial  ;
+  margin-left: 10px;
+  border: #778A50 1px solid;
+  border-radius: 3px;
+}
+.title{
+  line-height: 45px;
+  font-size: 16px ;
+  font-family: Arial Black;
+  padding: 0 30px;
+  margin-bottom: 15px;
+}
